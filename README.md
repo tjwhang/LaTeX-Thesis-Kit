@@ -20,7 +20,9 @@ Make sure you restart your machine after you install all of these. These won't w
 
 ## How to use
 Write down your document in markdown format. LaTeX syntaxes are also allowed. 
-If you are done, run `makepdf.bat` or `makepdf_quick.bat`
+Important! The document markdown file should be named `Thesis.md`. 
+If you are done, run `makepdf.bat` or `makepdf_quick.bat`.
+You can also manually run the pandoc commands via the command prompt using your own options if you know how. 
 the quick version will not prompt you the output file name and close itself when the operation is done. 
 The output file name defaults to `.pdf`. 
 You can run `\makepdf_quick.bat` in the command line in the file directory to quickly compile pdfs within your editor. 
