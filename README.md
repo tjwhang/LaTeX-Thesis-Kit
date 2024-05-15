@@ -10,9 +10,11 @@ Easy thesis/academic writing with pandoc, LaTeX and any text editor. Much more e
 - unicode math
 - stringenc
 - kotex
+- fontconfig
 ### Font
-KoPubWorld Batang as the default font. 
-Google Noto fonts will also do the job. 
+Google Noto Serif as default.
+Use `fc-list :lang=<language you want to use in your file>` in your command line to get valid list of fonts in your machine. 
+For example, `fc-list :lang=ko` to get all fonts in your machine that supports Hangeul(Korean characters). 
 
 Make sure you restart your machine after you install all of these. These won't work perfectly if you don't. 
 
