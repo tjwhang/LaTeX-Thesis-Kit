@@ -34,4 +34,4 @@ You can run `\makepdf_quick.bat` in the command line in the file directory to qu
 
 `Chracter <name or unicode code> not found` - Find a font that supports your language/character used in document.
 
-`file <name>.sty not found` - you need the LaTeX package. 
+`file <name>.sty not found` - you need the LaTeX package with the name `<name>`. 
