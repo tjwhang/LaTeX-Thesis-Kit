@@ -2,7 +2,7 @@
 @echo off
 set /p title= Input the output pdf file name: 
 
-echo Building Thesis pdf...
+echo Building %title%.pdf...
 pandoc Thesis.md -o %title%.pdf --pdf-engine=xelatex
 echo Operation complete.
 
