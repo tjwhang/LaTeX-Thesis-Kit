@@ -21,7 +21,7 @@ Make sure you restart your machine after you install all of these. These won't w
 ## How to use
 Write down your document in markdown format. LaTeX syntaxes are also allowed. 
 
-*Important!* The document markdown file should be named `Thesis.md`. 
+**Important!** The document markdown file should be named `Thesis.md`. 
 
 If you are done, run `makepdf.bat` or `makepdf_quick.bat`.
 You can also manually run the pandoc commands via the command prompt using your own options if you know how. 
