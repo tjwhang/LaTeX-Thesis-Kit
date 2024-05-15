@@ -20,7 +20,9 @@ Make sure you restart your machine after you install all of these. These won't w
 
 ## How to use
 Write down your document in markdown format. LaTeX syntaxes are also allowed. 
-Important! The document markdown file should be named `Thesis.md`. 
+
+*Important!* The document markdown file should be named `Thesis.md`. 
+
 If you are done, run `makepdf.bat` or `makepdf_quick.bat`.
 You can also manually run the pandoc commands via the command prompt using your own options if you know how. 
 the quick version will not prompt you the output file name and close itself when the operation is done. 
@@ -28,6 +30,8 @@ The output file name defaults to `.pdf`.
 You can run `\makepdf_quick.bat` in the command line in the file directory to quickly compile pdfs within your editor. 
 
 ## Troubleshooting
+`Thesis.md not found` - Name your document markdown file to `Thesis.md`
+
 `Chracter <name or unicode code> not found` - Find a font that supports your language/character used in document.
 
 `file <name>.sty not found` - you need the LaTeX package. 
