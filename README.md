@@ -20,4 +20,4 @@ Make sure you restart your machine after you install all of these. These won't w
 Write down your markdown and run makepdf.bat or makepdf_quick.bat
 the quick version will not prompt you the output file name and close itself when the operation is done. 
 The output file name defaults to ".pdf". 
-You can run \makepdf_quick.bat in the command line in the file directory to quickly compile pdfs within your editor. 
+You can run `\makepdf_quick.bat` in the command line in the file directory to quickly compile pdfs within your editor. 
