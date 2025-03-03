@@ -2,13 +2,27 @@
 title: "Title"
 subtitle: "Subtitle"
 author: "Author"
+date: "20XX-00-00"
 
 papersize: a4
-mainfont: Noto Serif CJK KR:style=Medium
-margin-left: 1.5in
+mainfont: "STIX Two Text"
+CJKmainfont: "SourceHanSerifK-Regular"
+
 margin-right: 1.5in
 margin-bottom: 1.5in
 margin-top: 1.5in
+margin-left: 1.5in
+fontsize: 12pt
+documentclass: article
+output:
+  pdf_document:
+    latex_engine: xelatex
+
+header-includes:
+  - \usepackage{fontspec}
+  #- \usepackage{xecjk}
+  - \usepackage{unicode-math}
+  - \setmathfont{STIX Two Math}
 ---
 \begin{center}
 \vspace{5cm}
